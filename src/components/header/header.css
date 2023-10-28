@@ -1,0 +1,45 @@
+* {
+	margin:0;
+	padding: 0;
+ }
+
+ .sma_header{
+	position: absolute;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	background-color: var(--color-sidebar);
+	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)); 
+ }
+
+ .sma_header-title{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-left: 100px;
+ }
+
+ .sma_header-title p{
+	color: #191919;
+	text-align: center;
+	font-family: Manrope;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize; 
+ }
+
+ .sma_header-links{
+	display: inline;
+	justify-content: space-between;
+	align-items: center;
+ }
+
+ .sma_header-links img{
+	margin-right:20px;
+	cursor: pointer;
+ }
+

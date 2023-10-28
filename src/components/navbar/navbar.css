@@ -4,24 +4,31 @@
  }
 
 .sma_navbar{
+	display: inline;
+	justify-content: center;
+	align-items: center;
 	width: auto;
 	height: 100%;
 	flex-shrink: 0; 
 	position: fixed;
-	overflow: auto;
 	margin: 0;
 	padding: 0;
 	background-color: var(--color-sidebar);
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
 }
 
 .sma_navbar-logo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+	
 	margin-bottom:10px;
 	cursor: pointer;
+}
+
+.sma_navbar-logo img{
+	width: 50px;
+	height: 50px;
 }
 
 .sma_navbar-menu:hover{
@@ -39,10 +46,7 @@ ul {
 	list-style-type: none;
  }
 
-img {
-	width: 50px;
-	height: 50px;
-}
+
 
 li img {
 	width: 30px;
