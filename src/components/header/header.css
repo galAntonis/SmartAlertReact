@@ -1,7 +1,4 @@
-* {
-	margin:0;
-	padding: 0;
- }
+
 
  .sma_header{
 	position: absolute;
@@ -15,8 +12,6 @@
  }
 
  .sma_header-title{
-	display: flex;
-	justify-content:space-between;
 	align-items: center;
 	margin-left: 100px;
  }
@@ -33,9 +28,10 @@
  }
 
  .sma_header-links{
-	display: inline;
-	justify-content: space-between;
+	display: flex;
+	justify-content: flex-end;
 	align-items: center;
+
  }
 
  .sma_header-links img{

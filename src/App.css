@@ -1,9 +1,11 @@
-* {
-	padding: 0;
-	margin: 0;
-	scroll-behavior: smooth;
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
   
 }
+
+
 
 body{
   background: linear-gradient(182deg, rgba(178,34,34,0.4) 6%, rgba(251,245,245,0.4) 96%, rgba(255,255,255,1) 100%);
@@ -11,4 +13,3 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed; 
 }
-
