@@ -17,25 +17,24 @@
  }
 
  .sma_header-title p{
-	color: #191919;
+	color: var(--color-notBlack);
 	text-align: center;
 	font-family: Manrope;
 	font-size: 16px;
 	font-style: normal;
-	font-weight: 600;
 	line-height: normal;
 	text-transform: capitalize; 
  }
 
  .sma_header-links{
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-
+	display: inline-flex;
+	margin-right: 20px;
+	gap: 20px;
+	font-size: 20px;
+	
  }
 
- .sma_header-links img{
-	margin-right:20px;
+ .sma_header-links *{
 	cursor: pointer;
  }
 

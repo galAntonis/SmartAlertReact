@@ -1,5 +1,4 @@
 import React from 'react'
-import './overview.css'
 
 const Overview = () =>{
 

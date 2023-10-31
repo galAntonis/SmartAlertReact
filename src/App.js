@@ -19,6 +19,7 @@ const App = () => {
 					<Route path="/help" element={<Help/>}/>
 				</Routes>
 			</Navbar>
+			
 			  
 		</BrowserRouter>
 	);

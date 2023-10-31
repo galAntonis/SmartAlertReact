@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './navbar.css'
 import logo from '../../assets/logo.png';
 import {
-	FaTh,FaHome,FaRegChartBar,FaBullhorn,FaShoppingBag,FaQuestionCircle, FaBars
+	FaHome,FaRegChartBar,FaBullhorn,FaShoppingBag,FaQuestionCircle, FaBars
 }from "react-icons/fa";
 
 import { NavLink } from "react-router-dom";
