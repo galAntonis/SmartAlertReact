@@ -1,11 +1,12 @@
 import React from "react";
 import './home.css'
 
-import {Panel} from '../../components'
+
 const Home = () => {
 	return (
 		<div class="sma_home">
 			<div className="sma_home-grid selected_row">
+
 				<div id="item-0">
 				</div>
 				<div id="item-1">&nbsp;</div>

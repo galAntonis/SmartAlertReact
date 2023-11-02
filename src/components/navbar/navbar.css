@@ -1,5 +1,6 @@
 .sma_navbar{
 	display: flex;
+	transition: all 0.5s;
   }
 
 main{
@@ -38,7 +39,7 @@ main{
 	color:  var(--color-notBlack);
 	padding: 10px 15px;
 	gap: 15px;
-	transition:all 0.5s;
+	transition: all 0.5s;
   }
   
   .sma_navbar-sidebar_link:hover{
