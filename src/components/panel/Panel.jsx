@@ -1,5 +1,6 @@
 import React from 'react'
 import './panel.css'
+import { Tooltip } from 'react-tooltip'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	FaEllipsisH
@@ -8,6 +9,7 @@ const Panel = ({imgUrl, title, subTitle, subTitle2}) =>{
 
 	return (
 		<div className='sma_home-panel'>
+			<Tooltip id="more" />
 			<div className="sma_home-panel_content">
 				<div className="sma_home-panel_image">
 					<FontAwesomeIcon icon={imgUrl} />
@@ -29,7 +31,9 @@ const Panel = ({imgUrl, title, subTitle, subTitle2}) =>{
 			</div>
 			
 			<div className="sma_home-panel_more">
-				<FaEllipsisH/>
+				
+				<a data-tooltip-id="more" data-tooltip-content="More"><FaEllipsisH/></a>
+				
 			</div>
 			<div className="sma_home-panel_content">
 				<h3></h3>
