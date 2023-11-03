@@ -12,8 +12,8 @@ const App = () => {
 			<Header/>
 			<Navbar>
 				<Routes>
-					<Route path="/" element={<Home/>}/>
-					<Route path="/index" element={<Home/>}/>
+					<Route path="/" element={<Home name='Antonis'/>}/>
+					<Route path="/index" element={<Home name='Antonis'/>}/>
 					<Route path="/statistics" element={<Statistics/>}/>
 					<Route path="/alerts" element={<Alerts/>}/>
 					<Route path="/settings" element={<Settings/>}/>

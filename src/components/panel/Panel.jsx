@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	FaEllipsisH
 }from "react-icons/fa";
-const Panel = ({imgUrl, title, subTitle, subTitle2}) =>{
+const Panel = ({imgUrl, title, subTitle, subTitle2, statsImgUrl}) =>{
 
 	return (
-		<div className='sma_home-panel'>
+		<div className='sma_home-panel'>	
 			<Tooltip id="more" />
 			<div className="sma_home-panel_content">
 				<div className="sma_home-panel_image">
@@ -28,6 +28,7 @@ const Panel = ({imgUrl, title, subTitle, subTitle2}) =>{
 							</div>
 						</div>
 				</div>
+				{statsImgUrl && <img src={statsImgUrl} />}
 			</div>
 			
 			<div className="sma_home-panel_more">

@@ -8,6 +8,15 @@
 	flex-direction: row;
 	justify-content: center;
 }
+
+.sma_home-panel_content img{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	width: 100%;
+	height: 90%;
+}
+
 .sma_home-panel_image{
 
 
