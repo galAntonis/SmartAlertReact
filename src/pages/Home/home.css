@@ -1,10 +1,14 @@
 .sma_home{
 	display: flex;
-	flex-direction: column;
 	justify-content: space-evenly;
 	align-content:center;
 
 }	
+
+.sma_home-content{
+	display: flex;
+	flex-direction: column;
+}
 
 .sma_home_greeting{
 	margin-top: 60px;
