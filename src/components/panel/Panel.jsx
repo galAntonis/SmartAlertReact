@@ -1,12 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './panel.css'
 import { Tooltip } from 'react-tooltip'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	FaEllipsisH
 }from "react-icons/fa";
+import MoreDropdown from '../moreDropdown/MoreDropdown';
 const Panel = ({imgUrl, title, subTitle, subTitle2, statsImgUrl}) =>{
-
+	const [open,setOpen] = useState(false);
 	return (
 		<div className='sma_home-panel'>	
 			<Tooltip id="more" />
@@ -32,8 +33,10 @@ const Panel = ({imgUrl, title, subTitle, subTitle2, statsImgUrl}) =>{
 			</div>
 			
 			<div className="sma_home-panel_more">
-				
-				<a data-tooltip-id="more" data-tooltip-content="More"><FaEllipsisH/></a>
+				<a data-tooltip-id="more" data-tooltip-content="More" onClick={()=>setOpen(!open)}><FaEllipsisH/></a>
+				{
+					open && <MoreDropdown/>
+				}
 				
 			</div>
 			<div className="sma_home-panel_content">

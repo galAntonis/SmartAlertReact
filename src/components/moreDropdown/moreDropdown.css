@@ -1,0 +1,28 @@
+.dropDown{
+	position: absolute;
+	width: 120px;
+	padding: 15px;
+	height: 60px;
+	background-color: #dbdbdb;
+	border-radius: 10px;
+	border: 1px solid gray;
+	transition: all 0.5s;
+}
+
+
+
+.dropDown li{
+	list-style-type: none;;
+}
+
+.dropDown::before{
+	content: '';
+	position: absolute;
+	top: -0.7rem;
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	background-color: #dbdbdb;
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+}

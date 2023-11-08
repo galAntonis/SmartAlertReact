@@ -41,7 +41,7 @@ const Navbar = ({children}) =>{
 	return (
 		<div className='sma_navbar'>
 			<Tooltip id="tooltip" place="right" effect='float'/>
-			<div style={{width: isOpen? "200px":"50px"}} className="sma_navbar-sidebar">
+			<div style={{width: isOpen? "150px":"50px"}} className="sma_navbar-sidebar">
 				<div className="sma_navbar-sidebar-top_section" >
 					<img src={logo} style={{display: isOpen? "block":"none"}} className="sma_navbar-sidebar-top_section-logo" alt='Menu'/>
 					<div style={{marginLeft: isOpen? "50px":"0px"}} className="sma_navbar-sidebar-top_section-bars" >
