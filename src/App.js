@@ -6,6 +6,9 @@ import {Home,Statistics,Alerts,Settings,Help} from './pages';
 
 import './App.css'
 
+import { addDoc, collection } from "@firebase/firestore"
+import { firestore } from "./firebase_setup/firebase"
+
 function Title(){
 	const location = useLocation();
 	return(
@@ -14,7 +17,7 @@ function Title(){
 	
 }
 const App = () => {
-	
+	const ref = collection(firestore, "test_data");
 	return (
 		<BrowserRouter>
 			<Title/>
